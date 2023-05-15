@@ -1,0 +1,149 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    font-family: 'Poppins', sans-serif;
+    /* background-color: #F8F8F8; */
+    
+}
+
+header
+{
+    display: flex;
+    /* background-color: aqua; */
+    width: 90%;
+    height: 10vh;
+    margin: auto;
+    align-items: center;
+}
+
+.logo-container,.cart,.nav-links 
+{
+    display: flex;
+    font-size: 18px;
+    color:#0066CC;
+
+}
+
+.logo-container
+{
+    flex: 1;
+}
+
+.logo-container h4
+{
+    font-weight: 400;
+    margin-left: 5px;
+    margin-top: -3px;
+}
+
+nav
+{
+    flex: 2;
+
+}
+
+.nav-links
+{
+    justify-content: space-around;
+    list-style: none;
+}
+
+.nav-link
+{
+    text-decoration: none;
+    color:#0066CC;
+    
+}
+
+.cart
+{
+    flex: 1;
+    justify-content: flex-end;
+    font-size: 20px;
+}
+
+.container-presentation
+{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    min-height:80vh;
+    align-items: center;
+}
+
+.introduction
+{
+    flex: 1;
+}
+
+.intro-text h1
+{   
+    
+
+    font-size: 44px;
+    font-weight: 600;
+    color: #0066CC;
+    background: linear-gradient(to right,#0066CC, #004488 );
+    background-clip: text;
+    -webkit-background-clip: text;   
+    -webkit-text-fill-color: transparent;
+}
+
+.intro-text p{
+    font-size: 20px;
+    margin: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    padding: 2px;
+    color: #333333;
+}
+
+.cta{
+    margin-top: 20px;
+    padding: 30px 0px 0px 0px;
+}
+
+.cta-select
+{
+    width: 150px;
+    height: 50px;
+    font-size: 17px;
+    border: 2px solid  #0066CC;
+    background: transparent;
+    color:  #0066CC;
+}
+
+.cta-buy
+{
+    width: 150px;
+    height: 50px;
+    font-size: 17px;
+    margin-left: 20px;
+    background: #0066CC;
+    color: #F8F8F8;
+    border: none;
+}
+
+.cover
+{
+    flex: 1;
+}
+
+.cover img
+{
+    height: 70vh;
+    filter: drop-shadow(0px 5px 3px gray);/*adds effect to whole image*/
+}
+
+.back-svg
+{
+    position: absolute;
+    top: 1%;
+    z-index: -1;
+    opacity: 0.4;
+}
