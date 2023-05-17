@@ -138,6 +138,7 @@ nav
 {
     height: 70vh;
     filter: drop-shadow(0px 5px 3px gray);/*adds effect to whole image*/
+    animation: myimage 1.5s ease;
 }
 
 .back-svg
@@ -145,5 +146,167 @@ nav
     position: absolute;
     top: 1%;
     z-index: -1;
-    opacity: 0.4;
+    opacity: 0.2;
+    height: 90%;
+    width: 100%;
+}
+
+.image-selector
+{
+    position: absolute;
+    left: 62%;
+    margin-top: -20px;
+}
+
+.image-selector i{
+    padding: 7px;
+    font-size: 20px;
+}
+
+@keyframes myimage
+
+{
+    0%
+    {
+        opacity: 0;
+        transform: translateY(-80px);
+    }    
+
+    100%
+    {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+@media screen and (min-width:500px) and (max-width:789px){
+    .container-presentation
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .introduction
+    {
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .intro-text h1
+    {
+        font-size: 30px;
+    }
+
+    .intro-text p
+    {
+        font-size: 18px;
+    }
+
+    .cta-select
+    {
+        width: 120px;
+        height: 40px;
+    }
+
+    .cta-buy
+    {
+        width: 120px;
+        height: 40px;
+    }
+
+    .image-selector
+    {
+        left: 35%;
+    }
+}
+
+@media screen and (min-width:654px) and (max-width:719px){
+
+    .image-selector
+    {
+        left: 36%;
+    }
+
+}
+
+@media screen and (min-width:719px) and (max-width:761px){
+
+    .image-selector
+    {
+        left: 38%;
+    }
+
+}
+
+@media screen and (min-width:761px) and (max-width:789px){
+
+    .image-selector
+    {
+        left: 38%;
+    }
+
+}
+
+@media screen and (min-width:789px) and (max-width:989px){
+
+    .image-selector
+    {
+        left: 58%;
+    }
+
+}
+
+@media screen and (min-width:989px) and (max-width:1200px){
+
+    .image-selector
+    {
+        left: 56%;
+    }
+
+}
+
+@media screen and (min-width:1201px) and (max-width:1300px){
+
+    .image-selector
+    {
+        left: 55%;
+    }
+
+}
+
+@media screen and (min-width:789px) and (max-width:1200px){
+    
+
+    .introduction
+    {
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .intro-text h1
+    {
+        font-size: 25px;
+    }
+
+    .intro-text p
+    {
+        font-size: 16px;
+    }
+
+    .cta-select
+    {
+        width: 120px;
+        height: 40px;
+    }
+
+    .cta-buy
+    {
+        width: 120px;
+        height: 40px;
+    }
+
+    .image-selector
+    {
+        left: 56%;
+    }
 }
