@@ -202,9 +202,8 @@ nav
 
     .cover img
     {
-        max-width: 294px;
-        width: 100%;
-        height: auto;
+        width: 20rem;
+        height: 100vh;
     }
     
     .nav-links.open
@@ -270,11 +269,11 @@ nav
       color: #000000;
     }
 
-    .cover img
+    /* .cover img
     {
         width: 20rem;
         height: 100vh;
-    }
+    } */
      
   }
   /*-------------------------------------------------------------------*/
@@ -341,8 +340,8 @@ nav
 @media screen and (min-width:600px) and (max-width:789px){
     .cover img
 {
-    width: 25rem;
-    height: 110vh;
+    width: 20rem;
+    height: 90vh;
 }
 }
 
@@ -389,7 +388,7 @@ nav
 .cover img
 {
     height: 90vh;
-    width: 20rem;
+    width: 300px;
 }
 
 }
