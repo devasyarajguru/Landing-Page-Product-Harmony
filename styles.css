@@ -440,17 +440,69 @@ body
 
 .cover img
 {
-    height: 90vh;
+    height: 70vh;
     width: 300px;
 }
 
 }
 
+/*-------------------------------------------------------------------*/
+
+
+/*-----------------min-width-1200px-------------------------------------------------*/
+
 @media screen and (min-width:1200px) {
-    .cover img
+    
+    *
     {
-        width: 500px;
-        height: 80vh;
-    }    
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body
+    {
+        width: 100%;
+    }
+
+    .introduction
+    {
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .intro-text h1
+    {
+        font-size: 25px;
+    }
+
+    .intro-text p
+    {
+        font-size: 16px;
+    }
+
+    .cta-select
+    {
+        width: 120px;
+        height: 40px;
+    }
+
+    .cta-buy
+    {
+        width: 120px;
+        height: 40px;
+    }
+
+    .cover
+{
+    flex: 0;
+}
+
+.cover img
+{
+    height: 80vh;
+    width: 300px;
+}
+
 }
 /*-------------------------------------------------------------------*/
