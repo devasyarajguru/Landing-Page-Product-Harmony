@@ -340,7 +340,7 @@ nav
 @media screen and (min-width:600px) and (max-width:789px){
     .cover img
 {
-    width: 20rem;
+    width: 200px;
     height: 90vh;
 }
 }
