@@ -202,8 +202,9 @@ nav
 
     .cover img
     {
-        width: 20rem;
-        height: 100vh;
+        max-width: 294px;
+        width: 100%;
+        height: auto;
     }
     
     .nav-links.open
