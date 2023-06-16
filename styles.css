@@ -220,6 +220,13 @@ nav
 /* -------------------- max-width- 789 ------------------------*/
 @media screen and (max-width:789px) {
 
+    *
+    {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
     .line
     {
       width: 30px;
@@ -281,6 +288,13 @@ nav
 /* -------------------min-width-294 and max-width- 789 ------------------------*/
 
 @media screen and (min-width:294px) and (max-width:789px){
+
+    *
+    {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
     .container-presentation
     {
         flex-direction: column;
@@ -338,6 +352,14 @@ nav
 
 /* ----------------min-width-600pxand max-width-789px------------*/
 @media screen and (min-width:600px) and (max-width:789px){
+
+    *
+    {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
     .cover img
 {
     width: 200px;
@@ -351,6 +373,12 @@ nav
 
 @media screen and (min-width:789px) {
     
+    *
+    {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
 
     .introduction
     {
