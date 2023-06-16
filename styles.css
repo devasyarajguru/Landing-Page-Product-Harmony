@@ -158,6 +158,12 @@ nav
 
 /* -----------------Max Width - 294px----------------------------- */
 @media screen and (max-width:294px) {
+
+    body
+    {
+        width: 100%;
+    }
+
     *
     {
         margin: 0;
@@ -219,6 +225,11 @@ nav
 
 /* -------------------- max-width- 789 ------------------------*/
 @media screen and (max-width:789px) {
+
+    body
+    {
+        width: 100%;
+    }
 
     *
     {
@@ -344,7 +355,10 @@ nav
         height: 40px;
     }
 
-    
+    body
+    {
+        width: 100%;
+    }
 }
   /*-------------------------------------------------------------------*/
 
@@ -362,9 +376,15 @@ nav
 
     .cover img
 {
-    width: 200px;
+    width: 300px;
     height: 90vh;
 }
+
+body
+    {
+        width: 100%;
+    }
+
 }
 
 /*-------------------------------------------------------------------*/
@@ -378,6 +398,11 @@ nav
         margin: 0;
         padding: 0;
         box-sizing: border-box;
+    }
+
+    body
+    {
+        width: 100%;
     }
 
     .introduction
@@ -421,4 +446,11 @@ nav
 
 }
 
+@media screen and (min-width:1200px) {
+    .cover img
+    {
+        width: 500px;
+        height: 80vh;
+    }    
+}
 /*-------------------------------------------------------------------*/
